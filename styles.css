@@ -13,6 +13,7 @@ body {
   background-repeat: no-repeat;
   background-size: 63% 100%;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .main-container {
@@ -146,10 +147,8 @@ body {
   border: none;
   border-radius: 2rem;
   background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
-  -webkit-transition: -webkit-box-shadow 0.5s;
-  transition: -webkit-box-shadow 0.5s;
-  transition: box-shadow 0.5s;
-  transition: box-shadow 0.5s, -webkit-box-shadow 0.5s;
+  -webkit-box-shadow: 0px 5px 5px #f5c0c6;
+          box-shadow: 0px 5px 5px #f5c0c6;
   position: absolute;
   right: 0;
 }
@@ -197,6 +196,7 @@ body {
 @media (max-width: 1440px) {
   body {
     background: linear-gradient(135deg, #fff5f5, white);
+    overflow-y: visible;
   }
   .main-container {
     -ms-grid-columns: 2fr;
@@ -254,6 +254,8 @@ body {
   .main-container main .form-container form button {
     width: 4rem;
     height: 2.75rem;
+    -webkit-box-shadow: 0px 5px 5px #f5c0c6;
+            box-shadow: 0px 5px 5px #f5c0c6;
   }
   .main-container footer {
     margin: 0;

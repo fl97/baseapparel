@@ -30,6 +30,7 @@ body {
     background-repeat: no-repeat;
     background-size: 63% 100%;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .main-container {
@@ -123,7 +124,7 @@ body {
                     border: none;
                     border-radius: 2rem;
                     background: $heavy-gradient;
-                    transition: box-shadow 0.5s;
+                    box-shadow: 0px 5px 5px #f5c0c6;
                     position: absolute;
                     right: 0;
 
@@ -170,6 +171,7 @@ body {
 @media (max-width: 1440px) {
     body {
         background: $light-gradient;
+        overflow-y: visible;
     }
 
     .main-container {
@@ -223,14 +225,15 @@ body {
                 padding: 0 2rem 0 2rem;
 
                 form {
-                input {
-                    padding: 0.8rem;
-                }
+                    input {
+                        padding: 0.8rem;
+                    }
 
-                button {
-                    width: 4rem;
-                    height: 2.75rem;
-                }
+                    button {
+                        width: 4rem;
+                        height: 2.75rem;
+                        box-shadow: 0px 5px 5px #f5c0c6;
+                    }
                 }
             }
         }
