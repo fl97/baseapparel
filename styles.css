@@ -193,7 +193,7 @@ body {
   cursor: pointer;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1350px) {
   body {
     background: linear-gradient(135deg, #fff5f5, white);
     overflow-y: visible;
